@@ -22,6 +22,7 @@ header { /* påvirker headeren, som inneholder "Quiz"-teksten */
     background-color: black;
     text-align: center;
     place-content: center;
+    color: white;
     padding: 4rem;
 }
 
@@ -33,9 +34,11 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
     height: 70%;
     margin: auto;
     padding: 20px;
+    
 }
 
 footer {
+    color: white;
     background-color: red;
     padding: 5rem;
     text-align: center;
