@@ -37,21 +37,21 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "Hva heter denne tanksen fra andre verdenskrig?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "T-26", correct: true },
+      { text: "Type-99", correct: false },
+      { text: "ZTZ-99", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'https://en.wikipedia.org/wiki/T-26#/media/File:T-26_in_Kirovsk.JPG',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem var ikke med i andre verdenskrig?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Italia", correct: false },
+      { text: "Norge", correct: false },
+      { text: "Somalia", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
