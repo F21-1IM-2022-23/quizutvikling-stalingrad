@@ -7,6 +7,7 @@
 body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplass både på mobil og PC*/
     min-height: 100vh;
     min-height: 100dvh;
+    background-color: white;
 }
 
 .oppsett { /* Gjør at innholdet strekker seg utover tilgjengelig skjermplass*/
@@ -18,9 +19,11 @@ body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplas
 }
 
 header { /* påvirker headeren, som inneholder "Quiz"-teksten */
-    background-color: lightgray;
+    background-color: black;
     text-align: center;
     place-content: center;
+    color: white;
+    padding: 4rem;
 }
 
 main { /* Plasserer og fordeler inneholdet som ligger i main */
@@ -28,14 +31,16 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    height: 80%;
+    height: 70%;
     margin: auto;
     padding: 20px;
+    
 }
 
 footer {
-    background-color: lightgray;
-    padding: 1em;
+    color: white;
+    background-color: red;
+    padding: 5rem;
     text-align: center;
 }
 
